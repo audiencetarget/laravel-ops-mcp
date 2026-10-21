@@ -1,0 +1,9 @@
+{
+  "name": "audiencetarget/ops-demo",
+  "description": "Synthetic Laravel Ops demo",
+  "type": "project",
+  "license": "MIT",
+  "repositories": [{"type": "path", "url": "../packages/laravel-ops"}],
+  "require": {"php": "^8.2", "laravel/framework": "^12.0", "fakerphp/faker": "^1.24", "audiencetarget/laravel-ops": "@dev"},
+  "config": {"allow-plugins": false}
+}

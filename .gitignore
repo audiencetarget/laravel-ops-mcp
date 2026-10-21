@@ -1,0 +1,14 @@
+/vendor/
+**/vendor/
+**/node_modules/
+**/dist/
+.env
+.env.*
+!.env.example
+mcp-server/sites.json
+demo-app/fake-data.json
+demo-app/bootstrap/cache/
+demo-app/storage/
+**/.phpunit.cache/
+**/.phpunit.result.cache
+*.log
